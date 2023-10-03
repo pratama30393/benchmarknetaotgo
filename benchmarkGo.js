@@ -11,7 +11,7 @@ function apiRequest2() {
   let response = http.get('http://localhost:8080/list');
 
   check(response, {
-    'Status is 200 for API 2': (r) => r.status === 200,
+    'Status is 200 for API Go': (r) => r.status === 200,
   });
 
   sleep(1);
